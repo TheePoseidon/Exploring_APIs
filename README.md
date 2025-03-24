@@ -59,7 +59,7 @@ The application is deployed on two web servers (Web01 and Web02), with a load ba
 3. **Testing**:
    - Test the application by accessing the load balancer's public IP address to ensure that traffic is correctly balanced and the application is functioning as intended.
 
-Video Link to how it works:
+Video Link to how it works: https://youtu.be/Qdj6s2sgPTQ
 ## Troubleshooting
 
 If you encounter an "API error" or "failed to fetch data," check your internet connection and ensure that the CoinGecko API is accessible. You may also want to verify your API key, if applicable.
