@@ -34,12 +34,12 @@ To run the application on your local machine, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/TheePoseidon/Exploring_APIs.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd currency-to-btc
+   cd Exploring_APIs
    ```
 
 3. Open the `index.html` file in your browser to start the app.
