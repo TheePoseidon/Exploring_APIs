@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bitcoin Converter</h1>
+        <div class="converter">
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" placeholder="Enter amount in local currency">
+
+            <label for="currency">Currency:</label>
+            <select id="currency">
+                <option value="KES">Kenyan Shilling (KES)</option>
+    <option value="NGN">Nigerian Naira (NGN)</option>
+    <option value="ZAR">South African Rand (ZAR)</option>
+    <option value="GHS">Ghanaian Cedi (GHS)</option>
+    <option value="UGX">Ugandan Shilling (UGX)</option>
+    <option value="TZS">Tanzanian Shilling (TZS)</option>
+    <option value="ETB">Ethiopian Birr (ETB)</option>
+    <option value="RWF">Rwandan Franc (RWF)</option>
+    <option value="MWK">Malawian Kwacha (MWK)</option>
+    <option value="CDF">Congolese Franc (CDF)</option>
+            </select>
+
+            <label for="fee">Transaction Fee (%):</label>
+            <input type="number" id="fee" placeholder="Enter transaction fee percentage">
+
+            <button id="convert-btn">Convert</button>
+        </div>
+
+        <div id="fee-info" class="result"></div>
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
